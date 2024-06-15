@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/earlyaccess/amiri.css");
+
+body {
+  background-color: #88f05f;
+}
+
+.amiri {
+  font-family: "Amiri", serif;
+}
+
+.arabic-number {
+  font-family: "Amiri", serif;
+}
+
+.fixed-sidebar {
+  position: fixed;
+  top: 80px; /* Adjust this value as needed to ensure the sidebar is positioned correctly */
+  bottom: 20px;
+  left: 10px;
+  width: calc(25% - 20px); /* Adjust this value based on your sidebar width */
+  overflow-y: auto;
+}
+
+.fixed-content {
+  position: fixed;
+  top: 80px; /* Adjust this value as needed to ensure the content is positioned correctly */
+  bottom: 20px;
+  right: 10px;
+  width: calc(75% - 20px); /* Adjust this value based on your content width */
+  overflow-y: auto;
+}
+
+.navbar-yellow {
+  background-color: yellow;
+}
